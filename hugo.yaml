@@ -52,7 +52,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/noobnesz/keithrandalsegovia.com
+  gitRepo: https://github.com/noobnesz/noobnesz.github.io
 
   features:
     # Enable portfolio section
