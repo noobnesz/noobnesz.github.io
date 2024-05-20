@@ -1,0 +1,76 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Cloud Engineer
+# your company information
+company:
+  name: EVBox B.V.
+  url: "https://evbox.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume-2022.pdf"
+
+# a summary about you
+summary: > 
+  I am Keith, a DevOps/Site Reliability Engineer with 8+ years of experience in the Information Technology sector.
+
+
+  Being proficient with Terraform, I believe provisioning reliable, highly available, and cost-efficient cloud infrastructure is my strongest suite. I also have a solid grasp in deploying containerized Docker services to the cloud with orchestration and templating tools such as Kubernetes and Helm.
+
+
+  Reducing toil has been always been my favorite thing to do in an organization ever since I stepped foot into the industry. I achieve this by developing automation in various CI/CD implementations such as Gitlab CI, Spinnaker, Jenkins, and even good old Bash scripts!
+
+
+  Cultivating the SRE culture in an organization has been a recent passion of mine, and what better way to do it than having observability? Implementing dashboards-as-code in Grafana has been my pet project and it gives me satisfaction to see it in action.
+
+
+  My goal right now is to have a challenging role that would test my skills as a DevOps/SRE practitioner, with a strong focus in observability and system architecting.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "segovia.keithrandal@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/noobnesz"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/keith-randal-segovia/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: AWS Certified Solutions Architect – Professional
+  url: "https://www.credly.com/badges/4e6f0c69-55c1-4b1c-879c-d99ea3a7b7c8/public_url"
+  badge: "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
+
+- type: certification
+  name: AWS Certified Solutions Architect – Associate
+  url: "https://www.credly.com/badges/6528e1df-710c-4ca5-bf8d-0dc20a3a5304/public_url"
+  badge: "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: certification
+  name: Verified International Academic Qualifications
+  url: "https://www.credly.com/badges/825a160f-06bc-4915-a525-d54a0dd060b6/public_url"
+  badge: "https://images.credly.com/images/0ab5b829-02ae-4a73-ac82-ab9798fb76e9/157a788a3a7d3880f574c2cdaf0b97d5.png"
+
+  
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
