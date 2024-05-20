@@ -1,4 +1,4 @@
-module github.com/noobnesz/keithrandalsegovia.com
+module github.com/noobnesz/noobnesz.github.io
 
 go 1.22.1
 
