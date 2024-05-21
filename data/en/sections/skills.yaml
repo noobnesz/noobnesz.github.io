@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Amazon Web Services
+  logo: "/images/sections/skills/aws-logo.svg"
+  url: "https://aws.amazon.com/"
+
+- name: Google Cloud Platform
+  logo: "/images/sections/skills/gcp-logo.svg"
+  url: "https://cloud.google.com/"
+
+- name: Terraform
+  logo: "/images/sections/skills/terraform-logo.svg"
+  url: "https://www.terraform.io/"
+
+- name: Linux
+  logo: "/images/sections/skills/k8s-logo.svg"
+  url: "https://www.linux.org/"
+
+- name: Docker
+  logo: "/images/sections/skills/docker-logo.svg"
+  url: "https://www.docker.com/"
+
+- name: Kubernetes
+  logo: "/images/sections/skills/k8s-logo.svg"
+  url: "https://kubernetes.io/"
+
+- name: Helm
+  logo: "/images/sections/skills/helm-logo.svg"
+  url: "https://helm.sh/"
+
+- name: GitLab CI
+  logo: "/images/sections/skills/gitlab-logo.svg"
+  url: "https://docs.gitlab.com/ee/ci/"
+
+- name: Renovate
+  logo: "/images/sections/skills/renovate-logo.png"
+  url: "https://docs.renovatebot.com/"
+
+- name: Cloudflare
+  logo: "/images/sections/skills/cloudflare-logo.png"
+  url: "https://www.cloudflare.com/"
+
+- name: Grafana
+  logo: "/images/sections/skills/grafana-logo.svg"
+  url: "https://grafana.com/"
+
+- name: OpsGenie
+  logo: "/images/sections/skills/opsgenie-logo.svg"
+  url: "https://www.atlassian.com/software/opsgenie/"

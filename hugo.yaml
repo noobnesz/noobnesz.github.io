@@ -33,10 +33,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-  tableOfContents:
-    startLevel: 2
-    endLevel: 6
-    ordered: false
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -59,14 +55,14 @@ params:
     portfolio:
       enable: true
 
-    # Enable blog posts
-    blog:
-      enable: false
-
-    # Enable Table of contents in reading page
-    toc:
+    # Enable dark mode
+    darkMode:
       enable: true
 
   # Configure footer
   footer:
     enable: true
+
+    # Configure newsletter
+    newsletter:
+      enable: false
