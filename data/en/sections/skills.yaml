@@ -14,47 +14,79 @@ skills:
 - name: Amazon Web Services
   logo: "/images/sections/skills/aws-logo.svg"
   url: "https://aws.amazon.com/"
+  summary: |
+    Certified Professional Architect, solid grasp of deploying reliable,
+    secure, performant, and cost-effective infrastructure to AWS
 
 - name: Google Cloud Platform
   logo: "/images/sections/skills/gcp-logo.svg"
   url: "https://cloud.google.com/"
+  summary: |
+    Well-versed in integrating GKE workloads with Google API, provisioning software supply chain with GCR and GAR,
+    as well as maintaining API products and documentation with Apigee X
 
 - name: Terraform
   logo: "/images/sections/skills/terraform-logo.svg"
   url: "https://www.terraform.io/"
+  summary: |
+    Proficient in writing infrastructure-as-code with Terraform using various
+    official and community providers
 
 - name: Linux
-  logo: "/images/sections/skills/k8s-logo.svg"
+  logo: "/images/sections/skills/linux-logo.png"
   url: "https://www.linux.org/"
+  summary: |
+    Adept in troubleshooting and configuration of services running in Linux distributions
 
 - name: Docker
   logo: "/images/sections/skills/docker-logo.svg"
   url: "https://www.docker.com/"
+  summary: |
+    Capable of writing Dockerfiles for containerized applications
+    and maintaining their lifecycle from the building stage up to deployment
 
 - name: Kubernetes
   logo: "/images/sections/skills/k8s-logo.svg"
   url: "https://kubernetes.io/"
+  summary: |
+    Experienced in administrating highly-available Kubernetes clusters
 
 - name: Helm
   logo: "/images/sections/skills/helm-logo.svg"
   url: "https://helm.sh/"
+  summary: |
+    Hands-on experience in writing and maintaining helmcharts to orchestrate Kubernetes deployments
 
 - name: GitLab CI
   logo: "/images/sections/skills/gitlab-logo.svg"
   url: "https://docs.gitlab.com/ee/ci/"
+  summary: |
+    Skilled in writing pipeline YAMLs for continuous integration as well as managing self-hosted runners in GKE
 
 - name: Renovate
   logo: "/images/sections/skills/renovate-logo.png"
   url: "https://docs.renovatebot.com/"
+  summary: |
+    Acquainted with configuring renovate to handle automated dependency updates in service and library repositories
 
 - name: Cloudflare
   logo: "/images/sections/skills/cloudflare-logo.png"
   url: "https://www.cloudflare.com/"
+  summary: |
+    Knowledgeable in securing traffic proxied through Cloudflare by provisioning
+    WAF rules, DDoS protection and edge certificates
 
 - name: Grafana
   logo: "/images/sections/skills/grafana-logo.svg"
   url: "https://grafana.com/"
+  summary: |
+    Hands-on experience in creating visualizations of data consumed from BigQuery datasets
+    using Grafonnet dashboards-as-code library
+    
 
-- name: OpsGenie
-  logo: "/images/sections/skills/opsgenie-logo.svg"
-  url: "https://www.atlassian.com/software/opsgenie/"
+- name: Atlassian
+  logo: "/images/sections/skills/atlassian-logo.png"
+  url: "https://www.atlassian.com/"
+  summary: |
+    Competent with using Atlassian collaboration tools; Practiced Scrum and Kanban on Jira,
+    integrated alerting policies with OpsGenie and created documentation with Confluence
