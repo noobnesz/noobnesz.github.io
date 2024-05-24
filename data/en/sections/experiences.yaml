@@ -1,0 +1,95 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: EVBox B.V.
+    url: "https://evbox.com/"
+    location: Amsterdam, The Netherlands
+    logo: /images/sections/experiences/evbox-logo.png
+    overview: |
+      EVBox is an eMobility, EV Charging solutions company headquartered in Amsterdam, The Netherlands.
+      The company operates over 550,000 charging ports worldwide, and counting.
+  positions:
+  - designation: Cloud Engineer
+    start: Nov 2023
+    responsibilities:
+    - "CIS benchmark: Identified and resolved security vulnerabilities in our GKE clusters"
+    - "SSL Certificate Migration: Migrated SSL certificates managed by self-hosted certman to Cloudflare-managed Edge Certificates"
+    - "Slack to MS Teams Migration: Created standard alert policies and escalation rules across the organization with integrating Google Cloud Monitoring to OpsGenie and Microsoft Teams"
+    - "SRE Dashboards: Built the automation around dashboards-as-code for Grafana from the ground up using the grafonnet library, Terraform and Gitlab CI"
+    - "Renovate: Configured Renovate for automatic dependency updates across all repositories within the organization to resolve submodule drifts and Snyk security vulnerabilities"
+    - "Google Container Registry Deprecation: Migrated all Docker container images hosted in Google Container Registry to Google Artifact Registry"
+    - "Cost-Savings: Analyzed cloud cost reports and identified redundant and unneeded application logs to cut costs on log ingestion"
+    - "DevOps: Develops and maintains CI/CD pipelines in Gitlab CI, cloud infrastructure with Terraform and troubleshoots any issues with them"
+    - "Scrum Master: Facilitates Scrum ceremonies such as stand-ups, retrospectives, and refinement"
+    - "On-call Incident Commander: Responds to incidents in production and creates post-mortem reports, stakeholder communications and action items"
+
+- company:
+    name: Samsung Research Philippines
+    url: "https://www.samsung.com/"
+    location: Taguig City, Philippines
+    logo: /images/sections/experiences/samsung-logo.png
+    overview: |
+      Samsung is a South Korean multinational manufacturing conglomerate headquartered in Samsung Digital City, Suwon, South Korea.
+  positions:
+  - designation: DevOps Engineer
+    start: Sep 2019
+    end: Sep 2022
+    responsibilities:
+    - "Builds and provisions the service infrastructure in the AWS Cloud Platform including, but not limited to, EC2 Instances, IAM Roles and user federation (via Keycloak), EFS/S3 Storage, Security Groups, Autoscaling Groups, Load Balancers, Route53 records, AWS WAF Web ACL's, Shield Advanced protection, CloudWatch monitoring and alarms, etc."
+    - "Creates, maintains, and decommissions service Infrastructure-as-a-Code via Terraform with the AWS Provider"
+    - "Develops and modifies Continuous Integration and Deployment pipelines for Spinnaker and Jenkins"
+    - "Modifies configuration YMLs for Helm and Ansible based on application requirements"
+    - "Handles micro-services migration from EC2 to Kubernetes (AWS EKS)"
+    - "Automates repetitive jobs via Python (boto3 AWS SDK) and Bash Scripts such as automated Security Group modification via Slack commands integration, and routine protection against known attacker IP's (AWS WAF)"
+    - "Analyzes traffic flow logs with AWS Athena, and generates reports for security and cost-reduction practices"
+    - "Handles security audits to harden AWS cloud infrastructure to meet with the company's security compliance rules"
+    - "Creates and maintains Datadog Alarms via Terraform Datadog Provider"
+    - "Submits the project's monthly billing reports to the finance team via the AWS Cost Explorer"
+    - "Participates in researching new software technologies and submitting Proof-Of-Concepts to the upper management to be implemented in potential projects in the future"
+    - "Submits weekly reports to the head of department regarding the team's achievements and the plan for the following week"
+    - "Attends all-hands meetings with the head of department and other service leads for the discussion of backlogs, plans, and goals"
+    - "Attends daily scrum meetings and sprint planning with developers to discuss sprint objectives of the projects"
+
+- company:
+    name: Amdocs
+    url: "https://www.amdocs.com/"
+    location: Taguig City, Philippines
+    logo: /images/sections/experiences/amdocs-logo.png
+    overview: |
+      Amdocs is an Israeli multinational telecommunications technology company headquartered in St. Louis, Missouri.
+      The company specializes in software and services for communications, media and financial services providers and digital enterprises. 
+  positions:
+  - designation: Software Developer
+    start: Jan 2017
+    end: Sep 2019
+    responsibilities:
+    - "Develops high-priority \"Fast-Track\" Turbo Charging features in C++"
+    - "Develops bash scripts of routine tasks such as full-environment deployment, cleanup, and testing."
+    - "Attends regular meetings with clients, team leads, business analysts, and developers for planning, impact assessment, and documentation of ongoing and future projects"
+    - "Attends meetings with clients and core product teams regarding UAT/NFT testing of new functionalities/fixes to be deployed in production"
+    - "Executes functional, regression, and performance testing for new production features and bug fixes"
+    - "Creates comprehensive test result documents and performance analysis"
+    - "Involved with the development, testing, and on-site deployment of XL Axiata's Magic Reload Project which grants the client's subscribers extra prepaid balance per purchase of a specific denomination, and in turn, an increased revenue for the client"
+    - "Developed monitoring bash cronjobs to check production server errors and latency"
+    - "Involved with the development of XL Axiata's Customer Quota Extract Project which grants the client a new functionality to collect data of subscribers' remaining allowances per month for data analytics"
+    - "Involved with the development, testing, on-site deployment and post-deployment support of XL Axiata Server Expansion Project which drastically increased the client's maximum prepaid subscriber capacity"
+  - designation: Software Support Engineer
+    start: Apr 2016
+    end: Dec 2016
+    responsibilities:
+    - "Subject Matter Expert in Amdocs' Turbo Charging Product"
+    - "Resolves Production Issues"
+    - "Reports production defects to the core product team in the form of logs, network packet analysis, among others"
+    - "Provides 24/7 on-call support for production incidents"
+    - "Provides on-call support for software deployment and quality verification on production"
+    - "Involved with the development, testing, and on-site deployment of XL Axiata's data warehouse optimization which saved the client terabytes of daily disk space consumption"
+  
