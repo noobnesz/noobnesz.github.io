@@ -19,7 +19,7 @@ experiences:
       The company operates over 550,000 charging ports worldwide, and counting.
   positions:
   - designation: Cloud Engineer
-    start: Nov 2023
+    start: Nov 2022
     responsibilities:
     - "CIS benchmark: Identified and resolved security vulnerabilities in our GKE clusters"
     - "SSL Certificate Migration: Migrated SSL certificates managed by self-hosted certman to Cloudflare-managed Edge Certificates"
