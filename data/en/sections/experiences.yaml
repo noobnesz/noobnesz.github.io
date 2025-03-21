@@ -10,6 +10,19 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Schuberg Philis
+    url: "https://schubergphilis.com/"
+    location: Amsterdam, The Netherlands
+    logo: /images/sections/experiences/evbox-logo.png
+    overview: |
+      Schuberg Philis is a Dutch company specializing in mission-critical IT services.
+  positions:
+  - designation: Mission Critical Engineer
+    start: Sep 2024
+    responsibilities:
+    - Handling mission-critical IT for vital industries in The Netherlands.
+
+- company:
     name: EVBox B.V.
     url: "https://evbox.com/"
     location: Amsterdam, The Netherlands
@@ -20,6 +33,7 @@ experiences:
   positions:
   - designation: Cloud Engineer
     start: Nov 2022
+    end: Aug 2024
     responsibilities:
     - "CIS benchmark: Identified and resolved security vulnerabilities in our GKE clusters"
     - "SSL Certificate Migration: Migrated SSL certificates managed by self-hosted certman to Cloudflare-managed Edge Certificates"
